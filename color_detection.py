@@ -6,7 +6,7 @@ import pandas as pd
 # =============================================================
 
 
-img_path = r'D:\\Python code in IDLE\\color_detection\\color.jpg'
+
 csv_path = r'D:\\Python code in IDLE\\color_detection\\colors_list.csv'
 
 
@@ -22,7 +22,7 @@ df = pd.read_csv(csv_path, names=index, header=None)
 # reading image
 
 
-img = cv2.imread(img_path)
+img = cv2.imread('D:\\Python code in IDLE\\color_detection\\colors.jpeg')
 img = cv2.resize(img, (800,600))
 
 
